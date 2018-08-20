@@ -14,4 +14,3 @@ def get_question():
     """
     data = User.get_questions()
     return jsonify({'data' : data})
-
