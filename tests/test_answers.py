@@ -10,7 +10,7 @@ class test_question(unittest.TestCase):
     def setup(self):
         self.question = [
         
-        {'user_id': 1,
+        {'question_id': 1,
         'topic': 'how to create a flask-api app', 
         'description':'I am having a problem creating a flask api app please help'
         },

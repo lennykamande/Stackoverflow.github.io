@@ -1,5 +1,12 @@
-from app import app
+from app import create_app
+import os
 
-if __name__ == '__main__':
+
+
+app = create_app(env=os.environ.get('APP_SETTING', "debug"))
+
+
+if __name__ == "__main__":
     app.run()
+
     
