@@ -12,6 +12,15 @@ class BaseTestCase(TestCase):
         self.app_context = self.app.app_context()
         self.app_context.push()
         self.test_client = self.app.test_client()
+        self.data = [{'title' : 'Flask question',
+                        'description' : 'How can one deploy a flask app to heroku',
+                        'quiz_id' : '1',
+                        'user_id' : '22'},
+
+                        {'title' : 'Heroku question',
+                        'description' : 'How can one see end points on heroku',
+                        'quiz_id' : '3',
+                        'user_id' : '2'} ]
 
     def tearDown(self):
         self.app_context.pop()
