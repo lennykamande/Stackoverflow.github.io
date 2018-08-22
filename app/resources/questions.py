@@ -18,9 +18,9 @@ class Questionlist(Resource):
         
         """
         quiz_id = randint(1, 1000)
-        self.listsdict = {'name' : request.json['name'], 
+        self.listsdict = {'title' : request.json['title'],
+                        'description' : request.json['description'],  
                         'user_id' : request.json['user_id'],
-                        'description' : request.json['description'], 
                         'quiz_id' : quiz_id}
         questionslist.append(dict(self.listsdict))
         return questionslist, 201

@@ -1,4 +1,8 @@
-# stackoverflow.github.io
+[![Build Status](https://travis-ci.org/lennykamande/stackoverflow.svg?branch=master)](https://travis-ci.org/lennykamande/stackoverflow)
+
+[![Coverage Status](https://coveralls.io/repos/github/lennykamande/stackoverflow/badge.svg?branch=master)](https://coveralls.io/github/lennykamande/stackoverflow?branch=master)
+
+# stackoverflow Lite
 This is the Userinterface to our Stackoverflow Lite Project.
 
 ## Getting Started
